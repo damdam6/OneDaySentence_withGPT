@@ -25,7 +25,6 @@ const getsentence= (idx) => {
     sendFeelings('sad', 3);
       break;
     case 4:
-      console.log('disappointed');
     sendFeelings('disappointed', 4);
       break;
     case 5:
@@ -37,7 +36,7 @@ const getsentence= (idx) => {
 
 
 const fetchAIResponse = async (message, idx) => {
-  const apiKey = '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'; 
+  const apiKey = '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'; 
   const apiEndpoint = 'https://api.openai.com/v1/chat/completions';
 
   try {
@@ -142,7 +141,7 @@ const fetchAIResponse = async (message, idx) => {
         <IconDisappoint />
       </div>
     </template>
-    <template #heading>Disapointed</template>
+    <template #heading>Disappointed</template>
     <template #sentence>
       <div v-if="isLoading[4]" class="loading-container">
         <div>
