@@ -1,0 +1,24 @@
+Here's a class diagram for the "Day Sentence" web service incorporating the recommendations:
+
+![Class Diagram with Recommendations](https://showme.redstarplugin.com/d/d:S1TECj7g)
+
+[You can view this diagram in a new tab.](https://showme.redstarplugin.com/d/d:S1TECj7g)
+
+[You can edit this diagram online if you want to make any changes.](https://showme.redstarplugin.com/s/s:UwmFTiwz)
+
+The diagram illustrates the following components and their interactions:
+- **MainPage**: Represents the main page developed using React.
+- **EmojiSelectionButton**: A button that users can click to select an emoji.
+- **EmojiChoiceView**: A view that displays the available emoji options for users to choose from.
+- **NewPage**: Represents the new page that appears after an emoji is selected, developed using React.
+- **DaySentenceView**: A view that displays the generated sentence for the day.
+- **BackToMainButton**: A button that allows users to navigate back to the main page.
+- **UserProfile**: Allows users to save their favorite sentences and view their emoji history.
+- **FeedbackSystem**: Enables users to rate or provide feedback on the generated sentences and shuffle for a new sentence.
+- **NotificationSystem**: Sends daily prompts to users.
+- **SocialSharing**: Allows users to share their sentence on social media platforms.
+- **Analytics**: Tracks user interactions and popular emojis.
+
+The type of the diagram is a class in Nomnoml language.
+
+To view other types of diagram and languages, use the key phrase "*explore diagrams*".
